@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+      {
+        "name": "Flutter",
+        "request": "launch",
+        "type": "dart"
+      },
+      {
+        "name": "iPhone11-emu",
+        "request": "launch",
+        "type": "dart",
+        "deviceId": "7BF16639-3354-443A-8290-0A15856B323F"
+      },
+      {
+          "name": "iPhone12-emu",
+          "request": "launch",
+          "type": "dart",
+          "deviceId": "B1F2B9B5-7B3F-4EE5-A121-7B851657317A"
+      }
+    ],
+    "compounds": [
+      {
+        "name": "All Devices",
+        "configurations": ["iPhone11-emu", "iPhone12-emu"]
+      }
+    ]
+  }
